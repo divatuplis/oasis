@@ -1,0 +1,131 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+body{
+    overflow: hidden;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background:url(https://img5.goodfon.com/wallpaper/nbig/1/2d/kofe-coffee-milk-moloko-ziorna-ruka-chernyi-fon.jpg) no-repeat;
+    back no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 45px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .Coffee House{
+    position: relative;
+    color: white;
+    front-family:Georgia;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+    <div class="Coffee House">
+  <h1>Coffee House</h1>
+</div>
+
+}
+header .Coffee House:hover{
+    color: red;
+}
+
+header .navigation a{
+    position: relative;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+    padding: 2px 10px;
+    /* border: 1px solid black;
+    border-radius: 10%; */
+
+}
+header .navigation a:hover{
+    color: red;
+    background: fixed;
+    /* border: 1px solid white; */
+    /* border-radius: 10px; */
+}
+.content{
+    max-width: 650px;
+    margin: 10% 30%;
+}
+.content .info h2{
+    color:white;
+    front-family:Courier New;
+    font-size: 60px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.content .info p{
+    color: red;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+    font-size: 19px;
+    font-weight: 600;
+
+}
+.Sign-up-btn{
+    margin-top: auto;
+    border: 1px solid white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 15px 35px;
+    color: white;
+    background: fixed;
+    margin-right: 35px;
+    font-weight: 700;
+
+
+}
+.Sign-up-btn:hover{
+    background:red;
+    transition: 0.5s;
+    color: white;
+    transform: scale(1.5);
+    border: none;
+
+
+}
+.media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+.media a{
+    position: relative;
+    color: white;
+    font-size: 25px;
+    margin-right: 60px;
+    transition: 0.3s;
+    transition-property: transform;
+}
+.media a:hover{
+    transform: scale(1.5);
+    /* border: 1px solid white; */
+
+}
